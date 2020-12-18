@@ -1,0 +1,44 @@
+/* header**** MENU**********************************************************************/
+.padre{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid orangered;
+  background-color: transparent;
+  display: 100%;
+  z-index: 1;
+  justify-content: space-between;
+  position: fixed;
+  width: 99%;
+  height: 96px;
+  transition: all 0.5s ease 0s;    
+ 
+}
+
+.logo img{
+  padding: 5px;
+  margin: 15px;
+}
+.navbar{
+  display: block;    
+}
+.navbar > ul > li {
+  display: inline-block;
+
+}
+.navbar > ul > li > a{
+  height: 96px;
+  /*line-height: 96px;*/
+  padding: 38px 16px;
+  color: white; 
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+ 
+}
+
+.navbar > ul > li > a:hover {
+color: black;
+}
+
+/*Fin de header******************************************************************************/

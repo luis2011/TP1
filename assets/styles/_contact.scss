@@ -1,0 +1,72 @@
+/*CONTACT*/
+.formulario-contactos{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: auto;
+  width: 100%;
+  background: -webkit-gradient(linear, left top, right top, color-stop(75%, #F2F4F1), color-stop(25%, #DCE1DA));
+  background: linear-gradient(90deg, #F2F4F1 75%, #DCE1DA 25%);
+ padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.formulario-contactos  h3{
+  text-align: left;
+  font-size: 39px;
+  color: orange;
+}
+
+.formulario-contactos  span{
+  color: black;
+}
+
+
+.form{
+  padding-left: 100px;
+}
+
+form label{
+  text-align: left;
+  font-size: 16px;
+  
+}
+
+form input{
+  width: 471px;
+  height: 33px;
+  border: none;
+   background: #F2F4F1;
+   border-bottom: solid 1px black;
+}
+
+form textarea{
+  margin-bottom: 15px;
+  width: 100%;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; 
+  border: none; 
+  background:  #F2F4F1 ;
+  resize: horizontal; 
+  border-bottom: solid 1px black;
+}
+
+form button{
+  top: 3568px;
+left: 101px;
+width: 144px;
+height: 48px;
+background: var(--unnamed-color-e0752f) 0% 0% no-repeat padding-box;
+background: #E0752F 0% 0% no-repeat padding-box;
+border-radius: 25px;
+opacity: 1;
+}
+
+.formulario-contactos img{
+  width: 594px ;
+  height: 400px ;
+  padding-right: 101px;
+}
+  
+  /** FIN DE CONTACT*/

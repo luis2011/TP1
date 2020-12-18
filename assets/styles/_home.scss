@@ -1,0 +1,91 @@
+/**INICIO  HOME*/
+.section-inicio {
+  width: 100%;
+  height: auto;
+  max-width: 1366px;
+  margin: auto;
+  background-image: url("../images/slider-1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.slider-item {
+  display: none;
+}
+
+.slider{
+    display: flex;
+    flex-direction: column;
+}
+
+.slider-items{
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+
+
+.slider-items h2 {
+  color: white;
+  margin-top: 0;
+  margin-bottom: 0px;
+  padding-top: 300px;
+  padding-left: 50px;
+  font-size: 39px;
+  width: 470px;
+  height: 115px;
+}
+
+.slider-items p {
+  color: white;
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding-top: 0px;
+  padding-left: 50px;
+  padding-bottom: 15px;
+  font-size: 20px;
+  width: 500px;
+}
+
+.slider-items a {
+  /*BOTON*/
+  background-color: #E0752F;
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+  margin-left: 50px;
+  padding: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  letter-spacing: 0.22px;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 50px;
+  opacity: 1;
+}
+
+.slider-nav{
+    padding-bottom: 200px;  /** estirar aca*/
+}
+
+.slider-nav > ul > li {
+  list-style: none;
+  display: inline-block;
+}
+
+.slider-nav > ul > li > a {
+  padding: 10px 16px;
+  font-size: xx-large;
+  color: gray;
+  text-decoration: none;
+  display: block;
+}
+
+.slider-nav > ul > li > a > span {
+  color: orange;
+}
+
+/** fin de INICIO***/

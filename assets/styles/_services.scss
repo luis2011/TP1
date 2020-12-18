@@ -1,0 +1,72 @@
+/*SERVICE*/
+
+.section-services{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 768px;
+    width: 100%;
+  }
+
+  .accordion{
+      display: flex;
+      flex-direction: column;
+      height: 150px;
+      width: 669px;
+      /*box-sizing: border-box;*/
+      background: white;
+      position: relative;
+      top: 300px;
+      left: 150px;
+  }
+
+  .accordion-card{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: auto;
+    width: auto;
+    background: #F8F8F8 0% 0% no-repeat padding-box;
+    border: 1px solid #E3E3E3;
+    border-radius: 4px 4px 0px 0px;
+    opacity: 1;
+    
+    
+  }
+  .accordion-card--A{
+    padding: 10px;
+  }
+
+   .accordion-card-title{
+     text-decoration: none;
+     color: #5F6368;
+     font-size: 15px;
+     
+     
+  }
+   
+
+
+  .accordion-card-contnent {
+   
+    font-size: 15px;
+    letter-spacing: 0.22px;
+    text-align: center;
+    color: #5F6368;
+    flex-wrap: wrap;
+    border: 1px solid #E3E3E3;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 1;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .nav-up > img {
+    width: 15px;
+    float: right;
+    padding-right: 2px;
+    padding-top: 2px;
+    
+  }
+  
+
+/**FIN DE SERVICE*/
